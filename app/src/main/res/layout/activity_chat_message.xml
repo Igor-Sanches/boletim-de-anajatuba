@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#e8e9e4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#075e54" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/lyt_back" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/spacing_medium" android:paddingRight="@dimen/spacing_medium" android:clickable="true" android:layout_width="wrap_content" android:layout_height="?attr/actionBarSize">
+            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="?attr/actionBarSize" app:srcCompat="@drawable/ic_arrow_back"/>
+            <View android:layout_width="@dimen/spacing_medium" android:layout_height="0dp"/>
+            <com.mikhaellopez.circularimageview.CircularImageView android:id="@+id/image" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/anajatuba_icone" app:civ_border="true" app:civ_border_color="#075e54" app:civ_border_width="0dp" app:civ_shadow="true" app:civ_shadow_radius="0"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/spacing_small" android:paddingRight="@dimen/spacing_small" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sala de conversa" app:fontFamily="sans-serif-medium"/>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:textColor="@color/grey_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Online"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:paddingTop="@dimen/spacing_medium" android:paddingBottom="@dimen/spacing_medium" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollingCache="true"/>
+        <View android:background="@drawable/bg_gradient_soft" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentTop="true" android:rotation="180"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/spacing_medium" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_small" android:layout_weight="1" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="18dp" app:cardElevation="1dp">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/spacing_small" android:paddingRight="@dimen/spacing_small" android:layout_width="match_parent" android:layout_height="@dimen/spacing_xmlarge">
+                <ImageView android:background="?attr/selectableItemBackground" android:padding="@dimen/spacing_middle" android:clickable="true" android:layout_width="@dimen/spacing_xmlarge" android:layout_height="@dimen/spacing_xmlarge" android:tint="#00897b" app:srcCompat="@drawable/ic_sentiment_satisfied"/>
+                <EditText android:id="@+id/text_content" android:background="@android:color/transparent" android:padding="@dimen/spacing_middle" android:layout_width="0dp" android:layout_height="match_parent" android:hint="Digite sua mensagem..." android:layout_weight="1" android:imeOptions="actionSearch"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:gravity="center" android:id="@+id/btn_send" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_small" android:tint="@android:color/white" app:backgroundTint="#00897b" app:elevation="1dp" app:fabSize="mini" app:srcCompat="@drawable/ic_send" app:useCompatPadding="false"/>
+    </LinearLayout>
+</LinearLayout>

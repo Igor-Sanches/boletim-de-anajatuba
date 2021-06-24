@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/middle_spacing"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="Redefinir"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/middle_spacing"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:text="Será encaminhado a você um E-Mail para redefinir sua senha"/>
+
+            <EditText
+                android:id="@+id/emailB2"
+                android:layout_marginTop="@dimen/middle_spacing"
+                android:layout_marginLeft="@dimen/middle_spacing"
+                android:layout_marginRight="@dimen/middle_spacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/middle_spacing"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_action_email"
+                android:drawableTint="@color/colorTextHint"
+                android:textColorHint="@color/colorTextHint"
+                android:hint="E-Mail"
+                tools:ignore="UnusedAttribute" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/middle_spacing"/>
+
+            <androidx.cardview.widget.CardView
+                android:clickable="true"
+                android:id="@+id/btnRec"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_width="60dp"
+                android:layout_gravity="end"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_height="48dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_action_next"
+                    android:tint="@color/colorPrimaryDark"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

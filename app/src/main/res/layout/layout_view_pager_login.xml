@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingTop="25dp"
+                android:paddingRight="30dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_roud"
+                    android:gravity="center">
+                    <ImageView
+                        android:src="@drawable/anajatuba_icone"
+                        android:id="@+id/card_image_pager"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:id="@+id/nameUser"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/app_background_edit"
+                android:hint="Nome Sobrenome"/>
+            <EditText
+                android:id="@+id/emailUser"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/app_background_edit"
+                android:hint="E-Mail"/>
+            <EditText
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:id="@+id/senhaUser"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/app_background_edit"
+                android:hint="Senha"/>
+            <LinearLayou
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:visibility="gone"
+                    android:inputType="textPersonName"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:id="@+id/nameUser"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/app_background_edit"
+                    android:hint="Nome Sobrenome"/>
+            </LinearLayou>
+            <TextView
+                android:visibility="gone"
+                android:alpha="0.5"
+                android:clickable="true"
+                android:id="@+id/recSenha"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorbar"
+                android:text="Esqueci minha senha"/>
+
+            <LinearLayout
+                android:layout_marginTop="35dp"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnSegundary"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/btnSegundaryText"
+                        android:gravity="center_horizontal"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_gravity="center"
+                        android:layout_margin="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnPrimary"
+                    android:layout_marginLeft="10dp"
+                    app:cardBackgroundColor="@color/colorbar"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/btnPrimaryText"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/light_grey_100"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_gravity="center"
+                        android:layout_margin="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

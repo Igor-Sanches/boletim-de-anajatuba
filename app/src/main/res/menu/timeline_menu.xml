@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_sorting"
+        app:showAsAction="always"
+        android:visible="false"
+        android:id="@+id/sort"/>
+    <item android:title="Editar"
+        android:visible="false"
+        app:showAsAction="always"
+        android:id="@+id/editar"/>
+    <item android:title="Postar"
+        android:visible="false"
+        app:showAsAction="always"
+        android:id="@+id/Postar"/>
+</menu>

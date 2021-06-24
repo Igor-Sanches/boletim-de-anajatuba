@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SobreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="25dp"
+            android:layout_height="wrap_content" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:background="@color/colorbar"
+                app:title="Boletim de Anajatuba"
+                app:titleTextColor="@color/light_grey_100"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.coordinatorlayout.widget.CoordinatorLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <View
+                            android:background="@drawable/splash_main"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"/>
+                        <Button
+                            android:id="@+id/privacy"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Politica de privacidade"
+                            android:textAllCaps="false"
+                            android:layout_gravity="bottom|end"
+                            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"/>
+                        <LinearLayout
+                            android:gravity="end"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                           <LinearLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content">
+                               <ImageButton
+                                   android:id="@+id/rate"
+                                   android:layout_width="50dp"
+                                   android:layout_height="50dp"
+                                   android:background="?attr/selectableItemBackgroundBorderless"
+                                   android:src="@drawable/ic_action_rate"/>
+                               <ImageButton
+                                   android:id="@+id/shared"
+                                   android:layout_width="50dp"
+                                   android:layout_height="50dp"
+                                   android:tint="@color/colorbar"
+                                   android:background="?attr/selectableItemBackgroundBorderless"
+                                   android:src="@drawable/ic_action_shared"/>
+                           </LinearLayout>
+
+                        </LinearLayout>
+                         </androidx.coordinatorlayout.widget.CoordinatorLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:maxLines="1"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="Informações sobre o Soft"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:text="@string/infoapp2"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+                            android:id="@+id/profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Clique aqui"
+                            android:textAllCaps="false"
+                            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:maxLines="1"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="Fontes dos dados"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:text="@string/infoapp3"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:maxLines="1"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="Motivo pela qual o app foi criado"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:text="@string/infoapp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

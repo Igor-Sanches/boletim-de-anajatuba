@@ -1,0 +1,36 @@
+<resources>
+    <string name="accept">aceito</string>
+    <string name="infoapp">Este aplicativo foi desenvolvido para levar informações dos casos do Corona-Virus para a população de Anajatuba de forma rápida e simples sem complexidade, nos não temos nenhum vínculos com a Prefeitura de Anajatuba e nem com empresas, fazemos este aplicativo para facilitar o acesso as informações sem ficar pesquisando na internet assim ficando longe das fakes news.</string>
+    <string name="app_name">Anajatuba Boletim</string>
+    <string name="infoapp3">Todos os dados mostrados neste app vem de fontes seguras trazendo a verdade dos casos sem desinformações. Nossa fonte é a Secretaria Publica de Saúde de Anajatuba SEMUS, não modificamos ou adicionamos nenhum valor sem ser os que eles passam a população.</string>
+    <string name="enterSummary">Faça login para entrar e usar este aplicativo 100% gratis\nOque este app oferece?\n\n1* Visão geral dos casos\n2* Lista das localidades com casos\n3* Lista das localidades com óbitos\n4* Participe (opcional) de um grupo no WhatsApp para debater sobre o Covid-19\n5* Denunciar algo que não deveria esta acontecendo ou liberado\n6* Deixe uma mensagem de motivação ou recado aos usuários do app\n\nObs: Entrando no app você aceita todos os nossos Termos de Uso e Politica de Privacidade</string>
+    <string name="covid_2">Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus foi descoberto em 31/12/19 após casos registrados na China. Provoca a doença chamada de coronavírus (COVID-19).</string>
+    <string name="covid_3">Lembre-se de sempre passar álcool em gel e usar mascara para se proteger e proteger quem você ama ;)</string>
+    <string name="anajatuba_icone">Bem Vindo, vamos logar?\nAceite os Termos de Uso e Politica de Privacidade para logar</string>
+    <string name="sintomas">A COVID-19 afeta diferentes pessoas de diferentes maneiras. A maioria das pessoas infectadas apresentará sintomas leves a moderados da doença e não precisarão ser hospitalizadas.\n\n-----------------\nSintomas mais comuns:\n* Febre\n* Tosse seca\n* Cansaço\n\nSintomas menos comuns:\n* Dores e desconfortos\n* Dor de garganta\n* Diarreia\n* Conjuntivite\n* Cor de cabeça\n* Perda de paladar ou olfato\n* Erupção cutânea na pele ou descoloração dos dedos das mãos ou dos pés\n\nSintomas graves:\n* Dificuldade de respirar ou falta de ar\n* Dor ou pressão no peito\n* Perda de fala ou movimento\n\nProcure atendimento médico imediato se tiver sintomas graves. Sempre ligue antes de ir ao médico ou posto de saúde, clínicas ou hospitais.\n\nPessoas saudáveis que apresentarem os sintomas leves devem acompanhar seus sintomas em casa. Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.</string>
+    <string name="errorConection">Sem conexão com a internet!</string>
+    <string name="authException">Não conseguimos se conectar ao servidor, tente novamente!</string>
+    <string name="firebaseAuthUserCollisionException">Já possui um cadastro com esse E-Mail, tente outro ou faça Login</string>
+    <string name="firebaseAuthWeakPasswordException">Sua senha é muito fraca!</string>
+    <string name="firebaseAuthInvalidCredentialsException">Sua senha esta incorreta!</string>
+    <string name="firebaseAuthInvalidUserException">O E-Mail digitado não existe em nossos serviços</string>
+    <string name="login_label">Entrando...</string>
+    <string name="faixaEtaria">Faixa Etária</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sintomas_menu">Sintomas</string>
+    <string name="msg">Mensagens de Apoio</string>
+    <string name="donate">Doações</string>
+    <string name="batepapo">Sala de Conversa</string>
+    <string name="sobre">Sobre o App</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="donate_user_card">Lembre-se que este aplicativo é gratis e não possui propagandas e anúncios, e a única maneira de manter o app livre e ativo é com doações e você pode escolher entre valores acima de R$ 2,00. Quando você o app para você fica sem anúncios e propagandas chatas e você estará contribuído para o desenvolvimento de novos Soft´s</string>
+    <string name="donate_user_not_card">Ainda não há doadores, seja o primeiro ;)</string>
+    <string name="applicationID">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyt/9n+rRco5jkGhpO/d61eznRLh8BETkkWLTFP/JFnm1l89IyTq3odd6gIGKPDt04+iRHeQ4ptbX8Kyo8vJC+V6UcTXtQ9cSHe1V/wt3peFToGgrYFqv58XJ/a9yrQ6mrn4HW59Z/C/cSkojf7EFRHcQ+BrIzmYhE21MOa4VVqbpac3uekCYVinYsQTIT8KPPG8ov3eEs0ksnagR5L4PumL+UnJbH68e2xqDDYbuUptdtHyat14EODUpYAZUVqDzFSpapGPZEkj2/aF2Tu9U7l5rLVo1Vl6eKqlducAxSgMX4TV86er0zkt0K9G+HsZLyRzm/cdVmUmP9vtqC4QvOwIDAQAB</string>
+    <string name="msg_user_not_card">Ainda não há nenhuma mensagem seja o primeiro</string>
+    <string name="donate_msg">Sua doação é uma grande ajuda para nos, muito obrigado. Caso o app tenha propagandas e anúncios os mesmos serão removidos. </string>
+    <string name="desec">Qualquer duvida sobre este aplicativo ou queira ajudar em algo para melhor o desempenho, design e qualquer outra forma de ajuda entre em contato.</string>
+    <string name="desec2">Caso queria entra em contato para trabalho como criar um app para empresa ou serviço também fazemos, se preciso pode entra em contato via E-Mail ou com outras opções de contato disponível.</string>
+    <string name="infoapp2">Este aplicativo foi desenvolvido para trazer a informações dos casos em tempo real, a sincronização é ligada a uma nuvem que conectar todos os dispositivos. Se gostou e deseja um app igual, podemos desenvolver para você que possui uma loja, comercio ou lanchonete. Se quiser saber mais:</string>
+</resources>

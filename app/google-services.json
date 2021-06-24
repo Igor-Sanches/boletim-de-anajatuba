@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "28521158575",
+    "firebase_url": "https://anajatubaboletim-c29d2.firebaseio.com",
+    "project_id": "anajatubaboletim-c29d2",
+    "storage_bucket": "anajatubaboletim-c29d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28521158575:android:39785b210872f6500dc15a",
+        "android_client_info": {
+          "package_name": "com.igordutrasanches.anajatubaboletim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28521158575-k5utcd689u4cnhc46fbr0rcho1t2ak70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.igordutrasanches.anajatubaboletim",
+            "certificate_hash": "b57ff433611d602ff60bc1512b18c7424ddddc65"
+          }
+        },
+        {
+          "client_id": "28521158575-4bu4ied3dsm9c1jnkgl20d0esd369uqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxailu449k5M2QdCw8OzZcQsJZFFo5J3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28521158575-4bu4ied3dsm9c1jnkgl20d0esd369uqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
